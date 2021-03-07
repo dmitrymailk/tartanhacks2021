@@ -25,6 +25,11 @@ const routes = [
     name: "medicine-article",
     component: () => import("../components/MedArticleReader.vue"),
   },
+  {
+    path: "/hospital/",
+    name: "medicine-article",
+    component: () => import("../views/HospitalPage.vue"),
+  },
 ];
 
 const router = new VueRouter({

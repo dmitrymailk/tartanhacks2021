@@ -62,7 +62,7 @@ export default {
           title: "Hospital",
           imgPath: hospitalImg,
           type: "hospital",
-          link: "",
+          link: "/hospital/",
         },
         {
           title: "Medicine",

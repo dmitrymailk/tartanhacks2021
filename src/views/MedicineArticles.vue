@@ -12,6 +12,7 @@
             |Sputnik V is already registered in more than 40 countries. Russia's Sputnik V coronavirus vaccine gives around 92% protection against Covid-19, late stage trial results published in The Lancet reveal.
           .medicine-articles-item__img
             img(:src="sputnik", alt="alt")
+      
       router-link.medicine-articles-item(to="/medicine-article/2")
         .medicine-articles-item__title
           |Pfizer-BioNTech COVID-19 Vaccine
