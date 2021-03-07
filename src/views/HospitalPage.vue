@@ -4,8 +4,8 @@
     .hospital-page__title
       |Find hospitals nearby
     .hospital-page__search-block
-      input.hospital-page__search(placeholder="Сity name")
-      img(:src="lope", alt="alt")
+      input.hospital-page__search(placeholder="Сity name"  v-model="userInput")
+      img(:src="lope", alt="alt" @click="searchInput")
     #map
 </template>
 
@@ -25,6 +25,7 @@ export default {
       search: null,
       lope,
       first: true,
+      userInput: "",
     };
   },
 
@@ -37,8 +38,6 @@ export default {
 
     // find near
     this.findNear("hospitals");
-
-    // center
   },
   methods: {
     createMarkers: function(places) {
@@ -57,12 +56,13 @@ export default {
 
           let placeId = place.place_id;
 
-          // let detailsReq = new self.google.maps.places.PlaceDetailsRequest(
-          //   placeId
-          // );
+          // get details about marker for telephone number extraction
           this.search.getDetails({ placeId }, (results, status) => {
             let title = place.name;
-            let url = place.photos[0].getUrl();
+            let url = "";
+            if (place.photos) {
+              url = place.photos[0].getUrl();
+            }
             console.log("DETAILS", results, status);
             let phone = results.international_phone_number;
             this.showElement(title, url, phone);
@@ -120,6 +120,25 @@ export default {
       this.map.controls[self.google.maps.ControlPosition.TOP_RIGHT].push(
         controlDiv
       );
+    },
+    searchInput: function() {
+      console.log(this.userInput);
+      let location = this.userInput;
+      const geocoder = new self.google.maps.Geocoder();
+      let map = this.map;
+
+      geocoder.geocode({ address: location }, (results, status) => {
+        if (status === "OK") {
+          map.setCenter(results[0].geometry.location);
+          new google.maps.Marker({
+            map,
+            position: results[0].geometry.location,
+          });
+
+          // find near
+          this.findNear("hospitals");
+        }
+      });
     },
   },
 };
