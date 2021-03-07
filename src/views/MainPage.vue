@@ -100,7 +100,7 @@ export default {
           title: "Top 5 facts\n about Covid-19",
           imgPath: fact,
           type: "fact",
-          link: "",
+          link: "/quiz-page/",
         },
       ],
     };

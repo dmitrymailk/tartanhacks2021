@@ -27,8 +27,18 @@ const routes = [
   },
   {
     path: "/hospital/",
-    name: "medicine-article",
+    name: "medicine-arti",
     component: () => import("../views/HospitalPage.vue"),
+  },
+  {
+    path: "/quiz-page/",
+    name: "quiz-page",
+    component: () => import("../views/QuizPage.vue"),
+  },
+  {
+    path: "/quiz-result/",
+    name: "quiz-result",
+    component: () => import("../views/QuizResultPage.vue"),
   },
 ];
 

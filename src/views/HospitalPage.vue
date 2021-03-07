@@ -4,7 +4,7 @@
     .hospital-page__title
       |Find hospitals nearby
     .hospital-page__search-block
-      input.hospital-page__search(placeholder="Hospital name")
+      input.hospital-page__search(placeholder="Сity name")
       img(:src="lope", alt="alt")
     #map
 </template>
