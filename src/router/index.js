@@ -11,9 +11,19 @@ const routes = [
     component: MainPage,
   },
   {
-    path: "/about",
-    name: "About",
-    component: () => import("../views/About.vue"),
+    path: "/read-more",
+    name: "read-more",
+    component: () => import("../views/ReadMoreCovidSymptoms.vue"),
+  },
+  {
+    path: "/medicine-articles",
+    name: "medicine-articles",
+    component: () => import("../views/MedicineArticles.vue"),
+  },
+  {
+    path: "/medicine-article/:id",
+    name: "medicine-article",
+    component: () => import("../components/MedArticleReader.vue"),
   },
 ];
 

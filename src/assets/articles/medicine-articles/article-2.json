@@ -1,0 +1,64 @@
+{
+  "title": "Pfizer/BioNTech’s New Vaccine Is Safe and Effective",
+  "data": [
+    {
+      "type": "image",
+      "content": "https://storage.googleapis.com/tartanhacks/medicine-articles/medicine-article-2/image-1.png"
+    },
+    {
+      "type": "sentence",
+      "content": "The COVID-19 pandemic has been devastating communities around the world for the greater part of a year now. Tens of millions are affected globally, and millions have been infected here in the U.S. causing three hundred thousand deaths as of mid-December, 2020."
+    },
+    {
+      "type": "sentence",
+      "content": "The U.K. had already approved the drug and started vaccinations, and this week the U.S. Food and Drug Administration (FDA) has finally also given authorization for emergency use. The following is a review of the Phase III clinical study on which the approval decisions were made."
+    },
+    {
+      "type": "subtitle",
+      "content": "1. The verdict…"
+    },
+    {
+      "type": "sentence",
+      "content": "The new Pfizer/BioNTech RNA-based vaccine is 95% effective in preventing COVID-19 in patients who were 16 years old or older. The new drug is as safe as other viral vaccines at the two-month period, which is the median duration collected so far."
+    },
+    {
+      "type": "sentence",
+      "content": "If you read no further, the main message is that the Pfizer/BioNTech vaccine BNT162b2 is safe and effective based on the gold standard, a randomized, double-blind, placebo-controlled three-phase clinical trial. This article is my personal assessment and applies only to the Pfizer/BioNTech vaccine. I have not reviewed others (such as Moderna’s vaccine or others, similar or not). If you are comfortable reading clinical studies, you can read the report in the New England Journal of Medicine (NEJM) here. If not, please read on."
+    },
+    {
+      "type": "subtitle",
+      "content": "2. The risks…"
+    },
+    {
+      "type": "sentence",
+      "content": "What follows is my own very brief list of risks, none of which I believe rise above the risk of COVID-19, and none of which out-weigh the benefits of BNT162b2."
+    },
+    {
+      "type": "sentence",
+      "content": "The safety of the vaccine has only been assessed for a median follow-up period of about two months. Normally a Phase III trial will last for years, during which any safety concerns can be documented and investigated. That has not been possible in this accelerated vaccine development."
+    },
+    {
+      "type": "sentence",
+      "content": "Kids younger than 16 have only recently begun testing with this vaccine. This will include adolescents between 12–15 years of age."
+    },
+    {
+      "type": "sentence",
+      "content": "Additional risk groups such as young kids, pregnant women, and people with weakened immune systems have not yet been tested with this vaccine."
+    },
+    {
+      "type": "subtitle",
+      "content": "3. The vaccine..."
+    },
+    {
+      "type": "sentence",
+      "content": "The vaccine which has been approved by the U.K. and now by the U.S. is called rather clinically, BNT162b2. The “BNT” in the drug’s name presumably refers to the company, BioNTech, that developed the drug in record time in partnership with Pfizer. Read more about the company and people of BioNTech here."
+    },
+    {
+      "type": "sentence",
+      "content": "BNT162b2 contains a messenger RNA (mRNA) which encodes the SARS-CoV-2 virus’s spike protein. SARS-CoV-2 is the virus causing COVID-19, and the spike protein is the knob-like protrusion surrounding the virus making it look like a crown or corona, thus its other name, coronavirus. The spike protein is the key which the virus uses to enter and infect our cells."
+    }
+  ],
+  "topic": "fiction",
+  "uuid": "0a292426e00e9a49209902d05701707cc29120e0c770e1298a0da464",
+  "link": "https://psiloveyou.xyz/grief-love-and-the-collar-she-would-never-wear-for-long-a19d2682b854"
+}

@@ -12,7 +12,7 @@ export default {
     return {
       menuItems: [
         {
-          link: "",
+          link: "/",
           name: "Home",
         },
         {

@@ -10,7 +10,7 @@
         |#Stayhome
       .main-page__text
         |If you think you have coronavirus (COVID-19) symptoms or have been in close contact with someone who has it, use this self-assesment to help determine how to seek further care.
-      router-link.main-page__button(to="")
+      router-link.main-page__button(to="/read-more/")
         |Read More
     //- ------------- SERVICES BLOCK --------------
     .services-block 
@@ -68,7 +68,7 @@ export default {
           title: "Medicine",
           imgPath: medicineImg,
           type: "medicine",
-          link: "",
+          link: "/medicine-articles",
         },
         {
           title: "Consultency",
@@ -150,10 +150,12 @@ export default {
     border: 2px solid #1A1D5A
     box-sizing: border-box
     border-radius: 8px
-    font-weight: 500
+    font-weight: 600
+    color: #1A1D5A
 // ------------- MAIN PAGE --------------
 .services-block
   min-height: 584px
+  height: calc(100% - 497px - 96px)
   width: calc(100% - 128px)
   background: #0E3360
   position: relative
