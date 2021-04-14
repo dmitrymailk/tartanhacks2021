@@ -1,5 +1,6 @@
 # tartanhacks2021
-
+![](main.png)
+![](quiz.png)
 
 ## Project setup
 
